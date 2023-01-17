@@ -67,8 +67,7 @@ section{
 
 section > article{
     font-family: 'Sriracha';
-    font-size: min(60px, 5vw);
-    line-height: 65px;
+    font-size: min(65px, 5vw);
 }
 
 article{
@@ -76,15 +75,21 @@ article{
 }
 
 .secao1{
-    background-color: brown;
+    background-color: whitesmoke;
     padding-top: 60px;
     padding-bottom: 230px;
 }
 
 .secao2{
-    background-color: blue;
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
     padding-top: 60px;
-    padding-bottom: 230px;
+    padding-bottom: 60px;
+    /* com as propriedades abaixo consegui fazer a imagem ficar responsiva e enquadrada 100% dentro do possivel no site*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
 }
 
 .secao3{
@@ -94,9 +99,15 @@ article{
 }
 
 .secao4{
-    background-color: blueviolet;
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
     padding-top: 60px;
     padding-bottom: 230px;
+    /* com as propriedades abaixo consegui fazer a imagem ficar responsiva e enquadrada 100% dentro do possivel no site*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
 }
 
 .secao5{
@@ -107,8 +118,7 @@ article{
 
 
 .artigo1{
-    max-width: 800px;
-    background-color: aqua;
+    max-width: 760px;
     position: relative;
     left: 30px;
     top: 10px;
@@ -116,15 +126,17 @@ article{
 }
 
 .artigo2{
-    max-width: 800px;
-    background-color: aqua;
+    max-width: 760px;
+    background-color: rgba(0, 0, 0, 0.473);
+    color: white;
     position: relative;
     left: 30px;
     top: 10px;
+    padding-bottom: 30px;
 }
 
 .artigo3{
-    max-width: 800px;
+    max-width: 760px;
     background-color: aqua;
     position: relative;
     left: 30px;
@@ -132,7 +144,7 @@ article{
 }
 
 .artigo4{
-    max-width: 800px;
+    max-width: 760px;
     background-color: aqua;
     position: relative;
     left: 30px;
@@ -140,7 +152,7 @@ article{
 }
 
 .artigo5{
-    max-width: 800px;
+    max-width: 760px;
     background-color: aqua;
     position: relative;
     left: 30px;
@@ -156,3 +168,24 @@ article{
     padding-top: 150px;
 }
 
+
+footer{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+}
+
+footer > p > a{
+    text-decoration: none;
+    font-weight: bold; 
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
