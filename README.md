@@ -1,2 +1,2 @@
-# projeto-cardel
-PROJETO CARDEL
+# projeto-cordel
+PROJETO CORDEL
