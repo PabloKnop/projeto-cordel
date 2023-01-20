@@ -70,6 +70,7 @@ section.normal{
 section.imagem{
     background-color: darkgray;
     color: whitesmoke;
+    box-shadow: inset 0px 0px 50px rgba(0, 0, 0, 0.877);
 }
 
 section.imagem > p{
