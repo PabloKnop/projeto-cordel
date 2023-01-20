@@ -69,12 +69,8 @@ section.normal{
 
 section.imagem{
     background-color: darkgray;
-    color: white;
+    color: whitesmoke;
 }
-
-
-
-
 
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.250);
@@ -82,6 +78,19 @@ section.imagem > p{
     padding: 5px;
 }
 
+section#joaninha{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#papel{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right bottom;
+    background-size: cover;
+    background-attachment: fixed;  
+}
 footer{
     color: whitesmoke;
     background-color: black;
